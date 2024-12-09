@@ -6,7 +6,7 @@ const page = await browser.newPage();
 await page.goto('https://developer.chrome.com/');
 
 // Set screen size.
-await page.setViewport({width: 768, height: 1024});
+await page.setViewport({width: 1920, height: 1080});
 
 // Type into search box.
 await page.locator('.devsite-search-field').fill('automate beyond recorder');
